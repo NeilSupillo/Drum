@@ -1,14 +1,14 @@
-var buttonLength = document.querySelectorAll('.drum').length;
+let buttonLength = document.querySelectorAll('.drum').length;
 
 /*adding event listener*/
-for (var i = 0; i < buttonLength; i++) {
+for (let i = 0; i < buttonLength; i++) {
 
   document.querySelectorAll(".drum")[i].addEventListener("click", identifyKey);
 }
 
 /*when button is click*/
 function identifyKey() {
-  var keyChar = this.innerHTML;
+  const keyChar = this.innerHTML;
   play(keyChar);
   animate(keyChar);
 }
@@ -16,9 +16,9 @@ function identifyKey() {
 /*when keyboard is pressed*/
 document.addEventListener("keypress", function(event) {
   
-var i = 0;
-var key = event.key;
-var char = ['a','s','d','w','j','k','l'];
+let i = 0;
+const key = event.key;
+let char = ['a','s','d','w','j','k','l'];
 while(char[i] !== key && i < char.length){
   i++;
 }
