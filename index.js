@@ -45,7 +45,7 @@ function play(keyChar) {
       break;
 
     case "d":
-      var audio = new Audio('/ex1_src1.wav');
+      var audio = new Audio('ex1_src1.wav');
       audio.play();
       break;
 
@@ -60,12 +60,12 @@ function play(keyChar) {
       break;
 
     case "k":
-      var audio = new Audio('/28-foot closed hat.wav');
+      var audio = new Audio('28-foot closed hat.wav');
       audio.play();
       break;
 
     case "l":
-      var audio = new Audio('/kick-bass.mp3');
+      var audio = new Audio('kick-bass.mp3');
       audio.play();
       break;
 
