@@ -35,7 +35,7 @@ if(char[i] === key){
 function play(keyChar) {
   switch (keyChar) {
     case "a":
-      var audio = new Audio('/sounds/crash.mp3');
+      var audio = new Audio('/crash.mp3');
       audio.play();
       break;
 
