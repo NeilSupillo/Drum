@@ -40,32 +40,32 @@ function play(keyChar) {
       break;
 
     case "s":
-      var audio = new Audio('/sounds/techgate.wav');
+      var audio = new Audio('techgate.wav');
       audio.play();
       break;
 
     case "d":
-      var audio = new Audio('/sounds/ex1_src1.wav');
+      var audio = new Audio('/ex1_src1.wav');
       audio.play();
       break;
 
     case "w":
-      var audio = new Audio('/sounds/lohnstrm.wav');
+      var audio = new Audio('lohnstrm.wav');
       audio.play();
       break;
 
     case "j":
-      var audio = new Audio('/sounds/crash.mp3');
+      var audio = new Audio('crash.mp3');
       audio.play();
       break;
 
     case "k":
-      var audio = new Audio('/sounds/28-foot closed hat.wav');
+      var audio = new Audio('/28-foot closed hat.wav');
       audio.play();
       break;
 
     case "l":
-      var audio = new Audio('/sounds/kick-bass.mp3');
+      var audio = new Audio('/kick-bass.mp3');
       audio.play();
       break;
 
