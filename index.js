@@ -35,37 +35,37 @@ if(char[i] === key){
 function play(keyChar) {
   switch (keyChar) {
     case "a":
-      var audio = new Audio('crash.mp3');
+       audio = new Audio('crash.mp3');
       audio.play();
       break;
 
     case "s":
-      var audio = new Audio('techgate.wav');
+       audio = new Audio('techgate.wav');
       audio.play();
       break;
 
     case "d":
-      var audio = new Audio('ex1_src1.wav');
+       audio = new Audio('ex1_src1.wav');
       audio.play();
       break;
 
     case "w":
-      var audio = new Audio('lohnstrm.wav');
+       audio = new Audio('lohnstrm.wav');
       audio.play();
       break;
 
     case "j":
-      var audio = new Audio('crash.mp3');
+       audio = new Audio('crash.mp3');
       audio.play();
       break;
 
     case "k":
-      var audio = new Audio('28-foot closed hat.wav');
+       audio = new Audio('28-foot closed hat.wav');
       audio.play();
       break;
 
     case "l":
-      var audio = new Audio('kick-bass.mp3');
+       audio = new Audio('kick-bass.mp3');
       audio.play();
       break;
 
@@ -73,10 +73,11 @@ function play(keyChar) {
   };
 }
 
+
 function animate(keyChar) {
 
   
-  var key = document.querySelector("." + keyChar);
+   key = document.querySelector("." + keyChar);
   key.classList.add("pressed");
 
   setTimeout(function() {
