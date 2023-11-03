@@ -21,6 +21,9 @@ footer {
   color: #DBEDF3;
   font-family: sans-serif;
 }
+.set{
+  max-width: 600px;
+}
 
 .w {
   background-image: url("images/tom1.png");
